@@ -22,7 +22,13 @@ Set-WinSystemLocale -SystemLocale "$lang_code"
 Write-Host "Set-Culture $lang_code"
 Set-Culture "$lang_code"
 
+# add input lanuage
+Write-Host "set input lanuages"
+$UserLanguageList = New-WinUserLanguageList -Language "en-US"
+$UserLanguageList.Add("$lang_code")
+Set-WinUserLanguageList -LanguageList $UserLanguageList
+
 Write-Host "Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $True"
-Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $True
+Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $True -Force
 
 Write-Host "Stopped Laguage settings script"
