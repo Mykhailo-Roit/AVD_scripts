@@ -1,0 +1,28 @@
+﻿[CmdletBinding()]
+Param (
+    [Parameter(
+        Mandatory
+    )]
+    [System.Int16[]]$lang_WinHomeLocation,
+    [Parameter(
+        Mandatory
+    )]
+    [System.String[]]$lang_code
+
+)
+
+Write-Host "Starting Laguage settings script"
+
+Write-Host "Set-WinHomeLocation  -GeoId  $lang_WinHomeLocation"
+Set-WinHomeLocation  -GeoId  $lang_WinHomeLocation
+
+Write-Host "Set-WinSystemLocale -SystemLocale $lang_code"
+Set-WinSystemLocale -SystemLocale $lang_code
+
+Write-Host "Set-WinSystemLocale -Set-Culture $lang_code"
+Set-WinSystemLocale -Set-Culture $lang_code
+
+Write-Host "Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $True"
+Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $True
+
+Write-Host "Stopped Laguage settings script"
