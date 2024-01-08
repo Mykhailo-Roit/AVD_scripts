@@ -5,7 +5,7 @@ Invoke-WebRequest -Uri https://download.microsoft.com/download/2/7/A/27AF1BE6-DD
 .\officedeploymenttool_16731-20398.exe /extract:./office /quiet 
 cd office
 
-Invoke-WebRequest -Uri 
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/Mykhailo-Roit/AVD_scripts/main/office-Configuration-all-languages.xml -Outfile office-Configuration-all-languages.xml
 .\setup.exe /download ..\office-Configuration-all-languages.xml  
 .\setup.exe /configure ..\office-Configuration-all-languages.xml
 cd ..
