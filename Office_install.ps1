@@ -13,4 +13,5 @@ cd ..
 #rmdir ./office
 
 Get-ChildItem -Path $tmpFolder | Remove-Item -Force -Recurse
+cd c:\
 rmdir $tmpFolder
