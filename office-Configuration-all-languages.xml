@@ -1,0 +1,21 @@
+<Configuration ID="eab320c3-e4f9-4cc3-899b-8211e683fa19">
+  <Info Description="" />
+  <Add OfficeClientEdition="64" Channel="Current">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-us" />
+      <Language ID="fr-fr" />
+      <Language ID="de-de" />
+      <Language ID="it-it" />
+      <Language ID="pt-pt" />
+      <Language ID="es-mx" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+  </Add>
+  <Updates Enabled="TRUE" />
+  <RemoveMSI />
+  <AppSettings>
+    <Setup Name="Company" Value="Caritas Schweiz" />
+  </AppSettings>
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
