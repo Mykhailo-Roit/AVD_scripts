@@ -28,9 +28,12 @@ $UserLanguageList = New-WinUserLanguageList -Language "en-US"
 Write-Host "set input languages.2"
 $UserLanguageList.Add("$lang_code")
 Write-Host "set input languages.3"
-Set-WinUserLanguageList -LanguageList $UserLanguageList
+Set-WinUserLanguageList -LanguageList $UserLanguageList -Force
 
 Write-Host "Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $True"
-Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $True -Force
+
+$ConfirmPreference = 'None'
+Copy-UserInternationalSettingsToSystem -WelcomeScreen $True -NewUser $True
+$ConfirmPreference = 'High'
 
 Write-Host "Stopped Language settings script"
