@@ -26,5 +26,5 @@ sleep 10
 #Stop-Process setup.exe
 Get-ChildItem -Path $tmpFolder -Recurse | Remove-Item -Force -Recurse
 #cd c:\
-rmdir $tmpFolder -Force
+#rmdir $tmpFolder -Force
 exit 0
