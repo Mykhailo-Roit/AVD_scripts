@@ -22,7 +22,9 @@ cd \
 #Get-ChildItem -Path ./office | Remove-Item -Force -Recurse
 #rmdir ./office
 
-Stop-Process setup.exe
+sleep 10
+#Stop-Process setup.exe
 Get-ChildItem -Path $tmpFolder -Recurse | Remove-Item -Force -Recurse
 #cd c:\
 rmdir $tmpFolder -Force
+exit 0
