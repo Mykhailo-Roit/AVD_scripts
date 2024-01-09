@@ -25,4 +25,4 @@ cd \
 
 Get-ChildItem -Path $tmpFolder -Recurse | Remove-Item -Force -Recurse
 #cd c:\
-rmdir $tmpFolder
+rmdir $tmpFolder -Force
