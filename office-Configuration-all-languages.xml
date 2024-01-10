@@ -1,25 +1,72 @@
-<Configuration ID="eab320c3-e4f9-4cc3-899b-8211e683fa19">
+<Configuration ID="e0713c9a-cb67-4e7c-9ea0-6824a1fd440a">
   <Info Description="" />
   <Add OfficeClientEdition="64" Channel="Current">
     <Product ID="O365ProPlusRetail">
       <Language ID="en-us" />
+      <Language ID="en-gb" />
+      <Language ID="fr-ca" />
       <Language ID="fr-fr" />
       <Language ID="de-de" />
       <Language ID="it-it" />
+      <Language ID="pt-br" />
       <Language ID="pt-pt" />
-      <Language ID="ru-ru" />
       <Language ID="es-mx" />
+      <Language ID="es-es" />
+      <Language ID="rm-ch" />
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
+    </Product>
+    <Product ID="VisioProRetail">
+      <Language ID="en-us" />
+      <Language ID="en-gb" />
+      <Language ID="fr-ca" />
+      <Language ID="fr-fr" />
+      <Language ID="de-de" />
+      <Language ID="it-it" />
+      <Language ID="pt-br" />
+      <Language ID="pt-pt" />
+      <Language ID="es-mx" />
+      <Language ID="es-es" />
+      <Language ID="rm-ch" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+    <Product ID="ProjectProRetail">
+      <Language ID="en-us" />
+      <Language ID="en-gb" />
+      <Language ID="fr-ca" />
+      <Language ID="fr-fr" />
+      <Language ID="de-de" />
+      <Language ID="it-it" />
+      <Language ID="pt-br" />
+      <Language ID="pt-pt" />
+      <Language ID="es-mx" />
+      <Language ID="es-es" />
+      <Language ID="rm-ch" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+    </Product>
+    <Product ID="LanguagePack">
+      <Language ID="en-us" />
+      <Language ID="en-gb" />
+      <Language ID="fr-ca" />
+      <Language ID="fr-fr" />
+      <Language ID="de-de" />
+      <Language ID="it-it" />
+      <Language ID="pt-br" />
+      <Language ID="pt-pt" />
+      <Language ID="es-mx" />
+      <Language ID="es-es" />
+      <Language ID="rm-ch" />
     </Product>
   </Add>
   <Updates Enabled="TRUE" />
   <RemoveMSI />
   <AppSettings>
     <Setup Name="Company" Value="Caritas Schweiz" />
-    <User Key="software\microsoft\office\16.0\access\settings" Name="default file format" Value="12" Type="REG_DWORD" App="access16" Id="L_DefaultFileFormat" />
-    <User Key="software\microsoft\office\16.0\excel\options" Name="defaultformat" Value="60" Type="REG_DWORD" App="excel16" Id="L_SaveExcelfilesas" />
-    <User Key="software\microsoft\office\16.0\powerpoint\options" Name="defaultformat" Value="52" Type="REG_DWORD" App="ppt16" Id="L_SavePowerPointfilesas" />
+    <User Key="software\microsoft\office\16.0\access\settings" Name="default file format" Value="12" Type="REG_SZ" App="access16" Id="L_DefaultFileFormat" />
+    <User Key="software\microsoft\office\16.0\excel\options" Name="defaultformat" Value="51" Type="REG_DWORD" App="excel16" Id="L_SaveExcelfilesas" />
+    <User Key="software\microsoft\office\16.0\powerpoint\options" Name="defaultformat" Value="27" Type="REG_DWORD" App="ppt16" Id="L_SavePowerPointfilesas" />
     <User Key="software\microsoft\office\16.0\word\options" Name="defaultformat" Value="" Type="REG_SZ" App="word16" Id="L_SaveWordfilesas" />
   </AppSettings>
   <Display Level="Full" AcceptEULA="TRUE" />
