@@ -1,8 +1,9 @@
-<Configuration ID="be1f7c46-af36-4080-8702-8f5eb0d4d5fc">
+<Configuration ID="a1d39898-890b-40ca-9986-0a8e4f055ed2">
   <Add OfficeClientEdition="64" Channel="Current">
     <Product ID="O365ProPlusRetail">
-      <Language ID="en-us" />
+      <Language ID="MatchOS" />
       <Language ID="en-gb" />
+      <Language ID="en-us" />
       <Language ID="fr-ca" />
       <Language ID="fr-fr" />
       <Language ID="de-de" />
@@ -18,8 +19,9 @@
       <ExcludeApp ID="Publisher" />
     </Product>
     <Product ID="VisioProRetail">
-      <Language ID="en-us" />
+      <Language ID="MatchOS" />
       <Language ID="en-gb" />
+      <Language ID="en-us" />
       <Language ID="fr-ca" />
       <Language ID="fr-fr" />
       <Language ID="de-de" />
@@ -35,8 +37,9 @@
       <ExcludeApp ID="Publisher" />
     </Product>
     <Product ID="ProjectProRetail">
-      <Language ID="en-us" />
+      <Language ID="MatchOS" />
       <Language ID="en-gb" />
+      <Language ID="en-us" />
       <Language ID="fr-ca" />
       <Language ID="fr-fr" />
       <Language ID="de-de" />
@@ -52,8 +55,9 @@
       <ExcludeApp ID="Publisher" />
     </Product>
     <Product ID="LanguagePack">
-      <Language ID="en-us" />
+      <Language ID="MatchOS" />
       <Language ID="en-gb" />
+      <Language ID="en-us" />
       <Language ID="fr-ca" />
       <Language ID="fr-fr" />
       <Language ID="de-de" />
