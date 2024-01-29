@@ -18,22 +18,6 @@
       <ExcludeApp ID="Lync" />
       <ExcludeApp ID="Publisher" />
     </Product>
-    <Product ID="VisioProRetail">
-      <Language ID="MatchOS" />
-      <Language ID="en-us" />
-      <ExcludeApp ID="Access" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="Publisher" />
-    </Product>
-    <Product ID="ProjectProRetail">
-      <Language ID="MatchOS" />
-      <Language ID="en-us" />
-      <ExcludeApp ID="Access" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="Lync" />
-      <ExcludeApp ID="Publisher" />
-    </Product>
     <Product ID="LanguagePack">
       <Language ID="MatchOS" />
       <Language ID="en-gb" />
