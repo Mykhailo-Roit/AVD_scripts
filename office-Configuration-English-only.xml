@@ -1,16 +1,11 @@
 <Configuration>
   <Add OfficeClientEdition="64" Channel="Current">
     <Product ID="O365ProPlusRetail">
-      <Language ID="MatchOS" />
       <Language ID="en-us" />
       <ExcludeApp ID="Access" />
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="Lync" />
       <ExcludeApp ID="Publisher" />
-    </Product>
-    <Product ID="LanguagePack">
-      <Language ID="MatchOS" />
-      <Language ID="en-us" />
     </Product>
   </Add>
   <Updates Enabled="TRUE" />
